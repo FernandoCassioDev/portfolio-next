@@ -1,8 +1,8 @@
 "use client";
 
-import React, { useState } from "react";
+import { useState } from "react";
 
-import { IoTerminal } from "react-icons/io5";
+import { MdOutlineTerminal } from "react-icons/md";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +24,7 @@ function Navbar() {
 
           <div className="flex ml-2">
             {/* icon */}
-            <IoTerminal className="flex h-full w-5 items-center text-green-500" />
+            <MdOutlineTerminal className="flex h-full w-7 items-center text-green-500" />
           </div>
         </div>
 
