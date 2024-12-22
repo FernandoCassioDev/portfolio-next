@@ -8,11 +8,12 @@ function HomePage() {
   return (
     <>
       <Navbar />
-      <div className="my-7 mx-3 h-24">
+      <div className="my-7 mx-3">
         <h1 className="font-extrabold text-2xl">
           Hello 👋
           <br />I am Fernando a professional
-          <div className="text-green-500 font-extrabold text-2xl">
+        </h1>
+        <div className="text-green-500 font-extrabold text-2xl h-8">
             <Typewriter
               words={["Software Engineer"]}
               loop={false} // Number of loops (set to `false` for infinite)
@@ -21,9 +22,8 @@ function HomePage() {
               delaySpeed={1000} // Delay between words
             />
           </div>
-        </h1>
       </div>
-      <div className="mx-4">
+      <div>
         <CodeDesign />
       </div>
     </>
