@@ -32,7 +32,7 @@ function CodeDesign() {
   }
   `;
   return (
-    <div className="relative border border-purple-700 rounded-lg overflow-hidden mx-4 bg-black">
+    <div className="relative border border-purple-700 rounded-lg overflow-hidden mx-4">
       {/* Title Bar */}
       <div className="flex items-center justify-end bg-purple-900 h-10 gap-5 px-4">
         {/* Buttons */}
@@ -74,9 +74,13 @@ function CodeDesign() {
           </svg>
         </button>
       </div>
-      <div className="p-4 bg-purple-950">
+      <div>
         {/* do style code design */}
-        <SyntaxHighlighter language="javascript" style={materialDark}>
+        <SyntaxHighlighter language="javascript" style={materialDark} customStyle={{
+            fontSize: "14px",
+            margin: "0",
+            padding: "0"
+          }}>
           {codeString}
         </SyntaxHighlighter>
       </div>
