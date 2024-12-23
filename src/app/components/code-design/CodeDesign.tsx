@@ -5,7 +5,7 @@ import { materialDark } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 function CodeDesign() {
   const codeString = `
-  const Developer = {
+  const softwareEngineer = {
   name: "Fernando Cássio",
   skills: [
     "Java",
