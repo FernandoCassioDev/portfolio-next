@@ -1,7 +1,8 @@
 "use client";
 
-import CodeDesign from "@/app/components/codedesign/CodeDesign";
+import CodeDesign from "@/app/components/code-design/CodeDesign";
 import Navbar from "@/app/components/navbar/Navbar";
+import TechCarousel from "@/app/components/tech-carousel/TechCarousel";
 import { Typewriter } from "react-simple-typewriter";
 
 function HomePage() {
@@ -25,6 +26,9 @@ function HomePage() {
       </div>
       <div>
         <CodeDesign />
+      </div>
+      <div>
+        <TechCarousel />
       </div>
     </>
   );
