@@ -64,7 +64,7 @@ function Navbar() {
 
         {/* Sidebar */}
         <div
-          className={`fixed top-0 right-0 w-64 h-full bg-black text-white transform ${
+          className={`fixed top-0 right-0 w-64 h-full bg-black text-white z-50 transform ${
             isOpen ? "translate-x-0" : "translate-x-full"
           } transition-transform duration-300 ease-in-out md:hidden`}
         >
@@ -129,7 +129,7 @@ function Navbar() {
         {isOpen && (
           <div
             onClick={toggleMenu}
-            className="fixed inset-0 bg-black opacity-50 md:hidden"
+            className="fixed inset-0 bg-black opacity-50 z-40 md:hidden"
           ></div>
         )}
 
