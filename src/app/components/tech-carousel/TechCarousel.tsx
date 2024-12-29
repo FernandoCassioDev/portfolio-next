@@ -41,7 +41,7 @@ function Carousel() {
   return (
     <>
       <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-8 rounded-lg shadow-lg mx-4 my-5">
-        <h2 className="text-3xl text-white  text-center mb-6">Tech Stack</h2>
+        <h2 className="text-3xl text-white  text-center mb-6">TECH STACK</h2>
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
           autoplay={{ delay: 3000 }}
