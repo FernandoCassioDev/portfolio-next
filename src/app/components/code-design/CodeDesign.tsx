@@ -32,9 +32,9 @@ function CodeDesign() {
   }
   `;
   return (
-    <div className="relative border border-purple-700 rounded-lg overflow-hidden mx-4">
+    <div className="relative rounded-lg overflow-hidden mx-4">
       {/* Title Bar */}
-      <div className="flex items-center justify-end bg-purple-900 h-10 gap-5 px-4">
+      <div className="flex items-center justify-end bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 h-10 gap-5 px-4">
         {/* Buttons */}
         <button className="w-5 h-5 flex items-center justify-center">
           <svg
