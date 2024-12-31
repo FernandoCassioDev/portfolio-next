@@ -1,6 +1,7 @@
 "use client";
 
 import CodeDesign from "@/app/components/code-design/CodeDesign";
+import ExperienceSection from "@/app/components/experience-section/ExperienceSection";
 import Navbar from "@/app/components/navbar/Navbar";
 import TechCarousel from "@/app/components/tech-carousel/TechCarousel";
 import { Typewriter } from "react-simple-typewriter";
@@ -31,6 +32,9 @@ function HomePage() {
       </section>
       <section>
         <TechCarousel />
+      </section>
+      <section>
+        <ExperienceSection />
       </section>
     </>
   );
