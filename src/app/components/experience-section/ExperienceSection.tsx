@@ -3,9 +3,9 @@ import TimelineItem from "./TimelineItem";
 
 function ExperienceSection() {
   return (
-    <div className="mx-4 my-5 rounded-lg bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-7">
+    <div className="mx-4 my-5 py-7">
       <div className="mb-5">
-        <h2 className="flex justify-center text-2xl text-white text-center">
+        <h2 className="flex items-center justify-center text-2xl text-white text-center rounded-lg bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 h-16">
           EXPERIENCE
         </h2>
       </div>
