@@ -2,6 +2,8 @@ import React from "react";
 import TimelineItem from "./TimelineItem";
 
 function ExperienceSection() {
+  // temporary styling
+  // improve this style soon as possible
   return (
     <div className="mx-4 my-5 py-5 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 rounded-lg">
       <div className="mb-5">
